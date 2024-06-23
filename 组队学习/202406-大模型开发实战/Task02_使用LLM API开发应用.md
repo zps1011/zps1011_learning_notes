@@ -16,7 +16,7 @@
 
 （2）User Prompt：这更偏向于我们平时提到的 Prompt，即需要模型做出回复的输入。
 
- System Prompt 一般在一个会话中仅有一个。在通过 System Prompt 设定好模型的人设或是初始设置后，我们可以通过 User Prompt 给出模型需要遵循的指令。当我们每次发送 User Prompt的时候，会自动带上 System Prompt 。
+-  System Prompt 一般在一个会话中仅有一个。在通过 System Prompt 设定好模型的人设或是初始设置后，我们可以通过 User Prompt 给出模型需要遵循的指令。当我们每次发送 User Prompt的时候，会自动带上 System Prompt 。
 
  
 
