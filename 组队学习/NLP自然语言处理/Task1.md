@@ -109,10 +109,10 @@ baseline 是指在比赛开始之前，组织方提供的一个基础的解决�
 
 | 测试次数 | BLEU 得分 | 翻译结果                                                     |
 | -------- | --------- | ------------------------------------------------------------ |
-| 1        | 0.3325    | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_01.png) |
-| 2        | 0.6949    | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_02.png) |
-| 3        | 0.9498    | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_03.png) |
-| 4        | 0.7497    | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_04.png) |
+|    1     |  0.3325   | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_01.png) |
+|    2     |  0.6949   | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_02.png) |
+|    3     |  0.9498   | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_03.png) |
+|    4     |  0.7497   | ![img](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/NLP%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/images/Task1_04.png) |
 
 四份代码处理中，改变的参数为 N 和 N_EPOCHS。
 
@@ -123,9 +123,9 @@ baseline 是指在比赛开始之前，组织方提供的一个基础的解决�
 - 从下述的四次的训练结果可知，最佳的数据为第三次测试结果。在通常情况下，训练的轮数越多，耗时越大；模型的性能会有所提升，但也可能会导致过拟合。因此，我们需要根据实际情况调整 N 与 N_EPOCHS 的值，找到一个合适的训练轮数，以提高模型的性能。
 
   - 第一次测试的 N 为 1000，  N_EPOCHS为10；BLEU 得分为 0.3325；
-- 第二次测试的 N 为 2000，  N_EPOCHS为50；BLEU 得分为 0.6949；
+  - 第二次测试的 N 为 2000，  N_EPOCHS为50；BLEU 得分为 0.6949；
   - 第三次测试的 N 为 10000，N_EPOCHS为20；BLEU 得分为 0.9498；
-- 第四次测试的 N 为 10000，N_EPOCHS为30。BLEU 得分为 0.7497。
+  - 第四次测试的 N 为 10000，N_EPOCHS为30。BLEU 得分为 0.7497。
 
 
 
