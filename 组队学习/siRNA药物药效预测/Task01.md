@@ -56,7 +56,7 @@ RNA干扰（RNAi）是生物体内调控基因表达的自然机制，能有效�
 
 #### 4. baseline
 
-baseline代码可见：Task01_baseline.ipynb
+baseline代码可见：[Task01_baseline.ipynb](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/siRNA%E8%8D%AF%E7%89%A9%E8%8D%AF%E6%95%88%E9%A2%84%E6%B5%8B/Task01_baseline.ipynb)
 
 ##### 4.1 baseline个人运行结果
 
