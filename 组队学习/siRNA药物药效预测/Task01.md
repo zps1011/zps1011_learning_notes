@@ -16,7 +16,7 @@ RNA干扰（RNAi）是生物体内调控基因表达的自然机制，能有效�
 - **train_data.csv**
   
    - 该文件的每行为一条训练记录，包含19个字段的内容。其中 **mRNA Remaining值为我们模型的训练目标**，其余18个字段的全部或部分可以作为模型的输入特征。
-   - Remaining值代表了经过siRNA的沉默之后，mRNA的剩余百分比（相对于对照组）。**Remaining值越低，siRNA的沉默效率越好，药效就越好。**Remaining值一般位于0-100的区间内，100表示完全没有沉默效果，0表示该mRNA被彻底沉默。
+   - Remaining值代表了经过siRNA的沉默之后，mRNA的剩余百分比（相对于对照组）。**Remaining值越低，siRNA的沉默效率越好，药效就越好**。Remaining值一般位于0-100的区间内，100表示完全没有沉默效果，0表示该mRNA被彻底沉默。
    
 - **sample_submission.csv**
   
