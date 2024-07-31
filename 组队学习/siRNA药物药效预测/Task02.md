@@ -562,13 +562,10 @@ RNN，全称为递归神经网络，是一种人工智能模型，特别擅长�
 
 LSTM 通过引入一个复杂的单元结构来解决 RNN 的局限性。LSTM 单元包含三个门（输入门、遗忘门和输出门）和一个记忆单元（细胞状态），这些门和状态共同作用，使 LSTM 能够更好地捕捉长期依赖关系。
 
-![基于GRU的神经网络模型](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/siRNA%E8%8D%AF%E7%89%A9%E8%8D%AF%E6%95%88%E9%A2%84%E6%B5%8B/siRNA_Model.png)
-
-
-
 #### 3. [GRU](https://pytorch.org/docs/stable/generated/torch.nn.GRU.html)
 
 GRU 是 LSTM 的一种简化版本，它通过合并一些门来简化结构，同时仍然保留了解决 RNN 局限性的能力。GRU 仅有两个门：更新门和重置门。
+![基于GRU的神经网络模型](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/siRNA%E8%8D%AF%E7%89%A9%E8%8D%AF%E6%95%88%E9%A2%84%E6%B5%8B/siRNA_Model.png)
 
 #### 4. 数据的特征工程
 
