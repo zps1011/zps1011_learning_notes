@@ -19,6 +19,14 @@ https://www.bilibili.com/video/BV1YS411w7A9/?spm_id_from=333.999.0.0&vd_source=0
 【baseline精读】
 https://www.bilibili.com/video/BV1WW42197Bm/?spm_id_from=333.999.0.0
 
+【baseline精读中提到的学习网站】
+
+https://lightgbm.readthedocs.io/en/stable/Parameters-Tuning.html
+
+https://datawhalechina.github.io/ML-FTTI/01_tree_ensemble/04_gbdt.html
+
+https://lightgbm.readthedocs.io/en/stable/Parameters.html
+
 【上分思路交流会】
 2024-08-01 20:20:22
 
