@@ -2,11 +2,11 @@
 
 【Task1教程】 https://linklearner.com/activity/14/10/26
 
-【Task2教程】 https://linklearner.com/activity/14/12/28
+【Task2教程】 https://datawhaler.feishu.cn/wiki/Ew1HwldMBiz2O4kbrI3cYkPXnpf
 
-【Task3教程】 https://linklearner.com/activity/14/12/36
+【Task3教程】 https://datawhaler.feishu.cn/wiki/LGotwhv6bi0Nokk3AUAcSudgnke
 
-【学习者手册】 https://linklearner.com/activity/14/10/22
+【学习者手册】 https://datawhaler.feishu.cn/wiki/Fofkw2XmViQ7aUk4vbFce5cNnSh
 
 【开营直播】 https://www.bilibili.com/video/BV15U411S7L5/?spm_id_from=333.999.0.0
 
