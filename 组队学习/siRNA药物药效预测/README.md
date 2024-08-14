@@ -14,7 +14,7 @@ https://datawhaler.feishu.cn/wiki/JjRLwR4mFiLOyZk05tMcBJ67ngd
 https://datawhaler.feishu.cn/wiki/KIncw3WXRiuff9k5zTvc6dSSnad
 
 【开营直播】
-https://www.bilibili.com/video/BV1YS411w7A9/?spm_id_from=333.999.0.0&vd_source=032fd15745909dc6b77923b4beaa4819
+https://www.bilibili.com/video/BV1YS411w7A9/?spm_id_from=333.999.0.0
 
 【baseline精读】
 https://www.bilibili.com/video/BV1WW42197Bm/?spm_id_from=333.999.0.0
