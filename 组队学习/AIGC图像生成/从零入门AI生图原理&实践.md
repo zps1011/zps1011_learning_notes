@@ -1,9 +1,10 @@
-<div style="border-bottom:3px solid black; width:100%; box-sizing:border-box; text-align:center; padding-top:0.1rem;">
-    <h1>Datawhale X 魔搭 AI 夏令营<br /><span>从零入门AI生图原理&实践</span></h1>
+<div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
+    <h1>Datawhale X 魔搭 AI 夏令营<br/><span>从零入门AI生图原理&实践</span></h1>
 </div>
-<div style="text-align:center;">
+<div style="text-align: center;" align="center">
     记录时间：2024年8月9日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后更新时间：2024年8月17日
 </div>
+
 ### 一、赛事解读
 
 ##### 1. 赛事链接
@@ -73,7 +74,9 @@ https://modelscope.cn/brand/view/Kolors?branch=0&tree=0
 ### 二、文生图知识
 
 **文生图**（Text-to-Image，简称“文生图”）是一种 AI 技术，它可以根据文本描述自动生成图像。这种技术使用了深度学习模型，尤其是变换器（Transformer）架构，来理解文本中的内容和上下文，并将这些信息转化为视觉表示。
+
 **DiffSynth-Studio** 是一个基于扩散模型的文生图技术。扩散模型是一种深度学习方法，可以生成高质量的图像。它的工作原理是首先向数据中添加噪声，然后通过一个训练有素的模型逐步去除这些噪声，最终生成清晰的图像。
+
 **Data-Juicer**：数据处理和转换工具，旨在简化数据的提取、转换和加载过程。
 
 ### 三、baseline
@@ -83,8 +86,8 @@ https://modelscope.cn/brand/view/Kolors?branch=0&tree=0
 （1）终端运行克隆 Git 仓库、下载 baseline 文件
 
 ```python
-git lfs install  #安装 Git LFS
-git clone https://www.modelscope.cn/datasets/maochase/kolors.git  #克隆包含 LFS 的仓库
+git lfs install  # 安装 Git LFS
+git clone https://www.modelscope.cn/datasets/maochase/kolors.git  # 克隆包含 LFS 的仓库
 ```
 
 （2）进入文件夹，打开 baseline 文件
@@ -179,12 +182,12 @@ git clone https://www.modelscope.cn/datasets/maochase/kolors.git  #克隆包含 
   with open("data/data-juicer/data_juicer_config.yaml", "w") as file:
       file.write(data_juicer_config.strip())
       
-  #使用 data-juicer 进行数据处理
+  # 使用 data-juicer 进行数据处理
   !dj-process --config data/data-juicer/data_juicer_config.yaml
   ```
 
   ```python
-  #读取处理后的数据并保存为 CSV 文件
+  # 读取处理后的数据并保存为 CSV 文件
   import pandas as pd
   import os, json
   from PIL import Image
@@ -442,10 +445,10 @@ python DiffSynth-Studio/examples/train/kolors/train_kolors_lora.py \
 os.system(cmd)
 ```
 
-> - 修改**--lora_rank**：LoRA（Low-Rank Adaptation）的秩，它是一种微调技术，用于调整模型的特定层，而不改变整个模型的结构。
-> - 增加**--max_epochs：**训练的最大周期数。
-> - 增加**--learning_rate**: 学习率，控制模型在每次迭代中更新的幅度。是深度学习中最重要的超参数之一。
-> - 修改**--dataloader_num_workers：**用于数据加载的子进程数。
+> - 修改**lora_rank**：LoRA（Low-Rank Adaptation）的秩，它是一种微调技术，用于调整模型的特定层，而不改变整个模型的结构。
+> - 增加**max_epochs**：训练的最大周期数。
+> - 增加**learning_rate**: 学习率，控制模型在每次迭代中更新的幅度。是深度学习中最重要的超参数之一。
+> - 修改**dataloader_num_workers**：用于数据加载的子进程数。
 
 ##### 2. 导入模型
 
