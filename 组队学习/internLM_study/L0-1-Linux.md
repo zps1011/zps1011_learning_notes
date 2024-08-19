@@ -31,10 +31,13 @@ InternStudio 是大模型时代下的云端算力平台。基于 InternLM 组织
 > - 任务描述：使用SSH连接到Linux服务器，完成端口映射，运行hello_world.py文件。
 > - 任务步骤：
 >
->   1. 创建远程开发机并在开发机中新建一个 Python 文件 hello_world.py
->   2. 配置SSH Key
->   3. 使用SSH连接到Linux服务器
->   4. 运行hello_world.py文件并完成端口映射
+>   1.创建远程开发机并在开发机中新建一个 Python 文件 hello_world.py
+>   
+>   2.配置SSH Key
+>   
+>   3.使用SSH连接到Linux服务器
+>   
+>   4.运行hello_world.py文件并完成端口映射
 
 #### （1）创建远程开发机并创建一个 Python 文件 hello_world.py
 
@@ -175,9 +178,12 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:7860 -o StrictHos
 
 > - 任务描述：使用VSCode远程开发功能连接到Linux服务器，配置conda环境。
 > - 任务步骤：
->   1. 安装VSCode插件Remote - SSH
->   2. 配置SSH连接
->   3. 创建、配置、运行conda环境
+>   
+>   1.安装VSCode插件Remote - SSH
+>   
+>   2.配置SSH连接
+>   
+>   3.创建、配置、运行conda环境
 
 VSCode 是一款由微软开发的开源代码编辑器，支持 Windows、macOS 和 Linux 等操作系统。VSCode 具有丰富的插件生态系统，可以满足不同用户的需求。VSCode 还支持远程开发功能，可以通过 SSH 连接到远程服务器进行开发。在本次任务中，将使用 VSCode 远程开发功能连接到 Linux 服务器，并配置 conda 环境。
 
@@ -199,7 +205,7 @@ ssh -p {port} root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnown
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-1-Linux-17.png)
 
-选中需要连接远程服务器，点击 `Connect to Host（在当前窗口中连接）`，VSCode 将会自动连接到远程服务器。初次连接时，会在开发机中下载远程连接所需的缓存应用文件。连接成功后，我们可以在左下角的状态栏中看到当前连接的主机名，也能在左侧的资源管理器中看到开发机的文件目录。
+选中需要连接远程服务器，点击 `Connect to Host（在当前窗口中连接）`，VSCode 将会自动连接到远程服务器。初次连接时，会在开发机中下载远程连接所需的缓存应用文件。连接成功后，我们可以在左下角的状态栏中看到当前连接的主机名，在左侧的资源管理器中看到开发机的文件目录。
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-1-Linux-18.png)
 
@@ -223,7 +229,7 @@ conda create -n zps1011_test python=3.10
 conda activate zps1011_test
 ```
 
-成功激活环境后，可以在终端中看到环境名前的 `(zps1011_test)`。
+成功激活环境后，可以在终端中看到环境名前面的 `(zps1011_test)`。
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-1-Linux-21.png)
 
@@ -231,13 +237,16 @@ conda activate zps1011_test
 
 > - 任务描述：在Linux服务器上创建一个名为test.sh的Shell脚本文件，编写内容后运行该文件。
 > - 任务步骤：
->   1. 创建test.sh文件
->   2. 编写Shell脚本
->   3. 运行test.sh文件
+>   
+>   1.创建test.sh文件
+>   
+>   2.编写Shell脚本
+>   
+>   3.运行test.sh文件
 
 `.sh`文件是脚本文件，一般是 bash 脚本，包含一系列的命令，可以在Linux系统中运行。
 
-在本次任务中，我创建一个名为 `test.sh` 的 Shell 脚本文件，用于更换 conda 源。并在文件内编写以下内容。
+在本次任务中，我将创建一个名为 `test.sh` 的 Shell 脚本文件，用于更换 conda 源。并在文件内写入以下内容。
 
 ```bash
 #设置清华镜像
