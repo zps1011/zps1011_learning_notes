@@ -16,7 +16,7 @@ Linux全称GNU/Linux，是一种自由和开源的类Unix操作系统，是一�
 
 Linux开发主要指的是在Linux操作系统下进行的软件开发的过程，其中包括编写、调试、测试等环节。Linux作为一个开源的操作系统，具有高度的可定制性和灵活性。Linux开发的过程中需要使用一些开发工具，如编译器、调试器、版本控制工具等。Linux开发的过程中还需要遵循一些开发规范，如代码规范、文档规范等。
 
-### 3. [InternStudio]([‌‍﻿‬‌‍‬‌﻿‍⁠‍﻿‬‌﻿‌﻿‌‌‌﻿‌‌‬InternStudio - 飞书云文档 (feishu.cn)](https://aicarrier.feishu.cn/wiki/GQ1Qwxb3UiQuewk8BVLcuyiEnHe))开发机介绍
+### 3. [InternStudio](https://aicarrier.feishu.cn/wiki/GQ1Qwxb3UiQuewk8BVLcuyiEnHe)开发机介绍
 
 InternStudio 是大模型时代下的云端算力平台。基于 InternLM 组织下的诸多算法库支持，为开发者提供开箱即用的大语言模型微调环境、工具、数据集，并完美兼容 HugginFace 开源生态。
 
