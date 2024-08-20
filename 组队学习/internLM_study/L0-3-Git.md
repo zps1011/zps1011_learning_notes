@@ -30,15 +30,23 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 > - 任务描述：每位学习者需提交一份自我介绍。
 > - 提交地址：https://github.com/InternLM/Tutorial 的 camp3 分支
 > - 提交要求：
->   1. 命名格式为 `camp3_<id>.md`，其中 `<id>` 是您的报名问卷ID。
->   2. 文件路径应为 `./data/Git/task/`。
->   3. 【大家可以叫我】内容可以是 GitHub 昵称、微信昵称或其他网名。
->   4. 在 GitHub 上创建一个 Pull Request，提供对应的 PR 链接。
+> - 
+>   1.命名格式为 `camp3_<id>.md`，其中 `<id>` 是您的报名问卷ID。
+>   
+>   2.文件路径应为 `./data/Git/task/`。
+>   
+>   3.【大家可以叫我】内容可以是 GitHub 昵称、微信昵称或其他网名。
+>   
+>   4.在 GitHub 上创建一个 Pull Request，提供对应的 PR 链接。
 > - 任务步骤：
->   1. 将该仓库的 camp3 分支 fork 到自己的 GitHub 仓库
->   2. 在 `./data/Git/task/` 目录下创建一个名为 `camp3_<id>.md` 的文件，其中 `<id>` 是您的报名问卷ID
->   3. 在文件中填写自我介绍内容
->   4. 提交 Pull Request，将自我介绍文件请求添加到 camp3 分支
+> - 
+>   1.将该仓库的 camp3 分支 fork 到自己的 GitHub 仓库。
+>   
+>   2.在 `./data/Git/task/` 目录下创建一个名为 `camp3_<id>.md` 的文件，其中 `<id>` 是您的报名问卷ID。
+>   
+>   3.在文件中填写自我介绍内容。
+>   
+>   4.提交 Pull Request，将自我介绍文件请求添加到 camp3 分支。
 
 打开指定的仓库地址，点击右上方的 `fork`，即可将该仓库分叉到自己的 GitHub 仓库中，则可在自己的 GitHub 仓库列表中看到分支的仓库。
 
@@ -73,8 +81,9 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 > - 任务描述：创建一个个人仓库，用于提交笔记、心得体会或分享项目。
 > - 任务步骤：
 >
->   1. 在 GitHub 中创建一个公开(public)仓库
->   2. 创建仓库介绍文件，并添加超链接跳转至 [书生大模型实战营](https://github.com/InternLM/Tutorial)
+>   1.在 GitHub 中创建一个公开(public)仓库。
+>      
+>   2.创建仓库介绍文件，并添加超链接跳转至 [书生大模型实战营](https://github.com/InternLM/Tutorial)
 
 在GitHub 中，点击 `+` 按钮，再点击到 `New repository` 仓库创建页面。在创建的页面中填写相关信息后，点击`Create repository`创建仓库。
 
