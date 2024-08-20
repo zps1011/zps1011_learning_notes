@@ -50,7 +50,7 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 打开指定的仓库地址，点击右上方的 `fork`，即可将该仓库分叉到自己的 GitHub 仓库中，则可在自己的 GitHub 仓库列表中看到分支的仓库。
 
-> ！！！注意执行 fork 操作时，取消勾选“Copy the camp3 branch only”选项）
+> ！！！注意执行 fork 操作时，取消勾选“Copy the camp3 branch only”选项
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-3-Git-01.png)
 
@@ -70,7 +70,7 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-3-Git-06.png)
 
-在页面中填写好相关信息，提交title为git_问卷星序号_introduction 格式，如git_2208_introduction。然后保存提交 Pull Request，将自我介绍文件请求添加到 camp3 分支，随后便能够在原仓库的 `Pull requests` 中看到自己的提交请求。
+在页面中填写好相关信息，提交title为git_报名问卷的id_introduction 格式，如git_2208_introduction。然后保存提交 Pull Request，将自我介绍文件请求添加到 camp3 分支，随后便能够在原仓库的 `Pull requests` 中看到自己的提交请求。
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-3-Git-07.png)
 
