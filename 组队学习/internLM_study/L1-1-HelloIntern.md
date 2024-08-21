@@ -49,11 +49,11 @@
 
 - 书生-万卷：首个精细处理的开源多模态语料库
 - [InternEvo](https://github.com/InternLM/InternEvo/)：轻量级大模型预训练框架
-- [XTuner](#2. XTuner)：轻量化大模型微调工具
-- [LMDeploy](#3. LMDeploy)：LLM 轻量化高效部署工具
-- [OpenCompass](#4. OpenCompass)：客观评估大模型性能的开源工具
-- [MinerU](#5. MinerU)：高质量数据提取、文档解析工具
-- [Lagent](#6. Lagent)：大语言模型智能体框架
+- [XTuner](#2-XTuner)：轻量化大模型微调工具
+- [LMDeploy](#3-LMDeploy)：LLM 轻量化高效部署工具
+- [OpenCompass](#4-OpenCompass)：客观评估大模型性能的开源工具
+- [MinerU](#5-MinerU)：高质量数据提取、文档解析工具
+- [Lagent](#6-Lagent)：大语言模型智能体框架
 - ……
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-1-HelloIntern-01.png)
