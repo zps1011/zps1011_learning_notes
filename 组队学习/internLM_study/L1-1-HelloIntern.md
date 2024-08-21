@@ -1,5 +1,5 @@
 <div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
-    <h1>书生大模型实战营【第三期】学习笔记<br/><span>基础岛 - 书生·浦语大模型全链路开源开放体系</span></h1>
+    <h1>书生大模型实战营【第三期】学习笔记<br/><span>基础岛 - 书生·浦语大模型全链路开源体系</span></h1>
 </div>
 <div style="text-align: center;" align="center">
     记录人：zps1011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录时间：2024年8月21日
