@@ -237,9 +237,9 @@ lmdeploy serve gradio /share/new_models/OpenGVLab/InternVL2-2B --cache-max-entry
 
 分享下上传的两张图片，2024年8月20日《黑神话：悟空》上线 ，同时也是软考开始报名的时候，网工人将悟空和华为的 eNSP 放一起了 ~ ~ ~
 
-![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-2-8G_Demo-09.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-2-8G_Demo-09.jpg)
 
-![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-2-8G_Demo-10.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-2-8G_Demo-10.jpg)
 
 ## 总结
 
