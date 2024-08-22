@@ -200,7 +200,7 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 6006:127.0.0.1:6006 -o StrictHos
 首先，我们在终端里激活环境（如果环境已激活，可不执行激活命令）并安装 LMDeploy 以及其它依赖。
 
 ```bash
-conda activate zps1011_demo
+conda activate zps1011_test
 # WebUI 中对话，需要安装 lmdeploy[serve] 依赖
 pip install lmdeploy[all]==0.5.1
 pip install timm==1.0.7
