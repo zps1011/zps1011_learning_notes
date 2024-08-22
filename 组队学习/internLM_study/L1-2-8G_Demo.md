@@ -40,6 +40,7 @@ LMDeploy 目前已经支持了 InternLM-XComposer2 系列的部署，但值得�
 
 > - 任务描述：使用 Cli Demo 完成 InternLM2-Chat-1.8B 模型的部署，并生成 300 字小故事，记录复现过程并截图。
 > - 实现步骤：
+>   
 >   1.准备  Cli Demo 运行环境与部署代码支撑
 >   
 >   2.准备 InternLM2-Chat-1.8B 模型
@@ -136,6 +137,7 @@ python /root/demo/cli_demo.py
 > - 任务描述：使用 Streamlit Web Demo 完成 InternLM2-Chat-1.8B 模型的部署，并生成 300 字小故事，记录复现过程并截图。
 >
 > - 实现步骤：
+>   
 >   1.准备  Streamlit Web Demo 运行环境与部署代码支撑
 >
 >   2.准备 InternLM2-Chat-1.8B 模型
@@ -147,7 +149,7 @@ python /root/demo/cli_demo.py
 我们执行如下代码来把本教程仓库 clone 到本地，以执行后续的代码。
 
 ```bash
-cd /root/demo                                       # 进入 demo 文件夹
+cd /root/demo                                       # 进入 demo 路径
 git clone https://github.com/InternLM/Tutorial.git  # 克隆教程仓库到本地
 ```
 
@@ -186,9 +188,12 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 6006:127.0.0.1:6006 -o StrictHos
 
 > - 任务描述：使用 LMDeploy 完成 InternLM-XComposer2-VL-1.8B 和 InternVL2-1.8B 的部署，并完成一次图文理解对话，记录复现过程并截图。
 > - 实现步骤：
->   1. 准备部署环境
->   2. 部署 InternLM-XComposer2-VL-1.8B 模型
->   3. 部署 InternVL2-1.8B 模型
+>   
+>   1.准备部署环境
+>   
+>   2.部署 InternLM-XComposer2-VL-1.8B 模型
+>   
+>   3.部署 InternVL2-1.8B 模型
 
 在完成基础任务后，可以继续完成进阶任务。
 
