@@ -206,7 +206,7 @@ pip install lmdeploy[all]==0.5.1
 pip install timm==1.0.7
 ```
 
-接下来，我们使用 LMDeploy 启动一个与 InternLM-XComposer2-VL-1.8B 模型交互的 Gradio 服务。因受性能限制，控制 IO 缓存在0.1M，在终端中输入以下命令：执行命令后，需要进行本地电脑与开发机的 SSH 连接与端口映射，将本地 6006 端口与开发机的 6006 端口连接。
+接下来，我们使用 LMDeploy 启动一个与 InternLM-XComposer2-VL-1.8B 模型交互的 Gradio 服务。因受性能限制，控制 IO 缓存在0.1M，在终端中输入以下命令：
 
 ```bash
 lmdeploy serve gradio /share/new_models/Shanghai_AI_Laboratory/internlm-xcomposer2-vl-1_8b --cache-max-entry-count 0.1
