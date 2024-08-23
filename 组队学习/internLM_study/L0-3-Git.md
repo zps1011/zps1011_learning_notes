@@ -70,7 +70,7 @@ Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理�
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-3-Git-06.png)
 
-在页面中填写好相关信息，提交title为git_报名问卷的id_introduction 格式，如git_2208_introduction。然后保存提交 Pull Request，将自我介绍文件请求添加到 camp3 分支，随后便能够在原仓库的 `Pull requests` 中看到自己的提交请求。
+在页面中填写好相关信息，提交title为git_报名问卷的id_introduction 格式，如git_2208_introduction。然后保存提交 Pull Request，将自我介绍文件请求添加到 camp3 分支，随后便能够在原仓库的 `Pull requests` 中看到自己的提交请求。本人的提交请求链接：https://github.com/InternLM/Tutorial/pull/1755
 
 ![image](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-3-Git-07.png)
 
