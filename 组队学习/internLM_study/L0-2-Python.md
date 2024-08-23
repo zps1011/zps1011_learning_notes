@@ -235,7 +235,7 @@ python -m pdb wordcount.py
 
 #### 2.2 使用断点进行 debug
 
-新建一个`Python_debug.py`文件，写入以下代码：
+在远程开发机中新建一个`Python_debug.py`文件，写入以下代码：
 
 ```python
 def add_numbers(a,b,c):
@@ -251,7 +251,7 @@ if __name__ =='__main__':
     print("The result of sum is ",result)
 ```
 
-进行 debug 前，检查是否安装 Python Extension 插件。如果没有正确安装此插件，断点（红点）不会出现。
+进行 debug 前，检查是否安装 Python Extension 插件。如果没有正确安装此插件，断点便不会出现。
 
 在代码行号旁边点击，可以添加一个红点，这就是断点。当代码运行到相应的断点时，它会停下来，在断点前的代码会全部执行，这样就可以检查变量的值、执行步骤等。点击 VSCode 侧边栏小三角形的`Run and Debug（运行和调试）`，然后点击`Run and Debug（开始调试）`按钮，或按 `F5` 键，开始 debug 。
 
@@ -259,23 +259,23 @@ if __name__ =='__main__':
 
 总共设置了`5个`断点，每一断点的相关变量的调试结果如下所示：
 
-第一个断点，此时执行到 sum = 0 ，还没有执行到 sum +=a
+第 1 个断点，此时执行到 sum = 0 ，还没有执行到 sum +=a。
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-06.png) 
 
-第二个断点，此时已经执行了 sum +=a， sum 值变为 1。
+第 2 个断点，此时已经执行了 sum +=a， sum 值变为 1。
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-07.png)
 
-第三个断点
+第 3 个断点
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-08.png)
 
-第四个断点
+第 4 个断点
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-09.png)
 
-第五个断点
+第 5 个断点
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-10.png)
 
