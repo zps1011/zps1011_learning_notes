@@ -192,12 +192,12 @@ python wordcount.py
 
 ### 2. Vscode 连接 InternStudio debug 过程记录
 
-> - 任务描述：使用本地VSCode连接远程开发机，将上面你写的wordcount函数在开发机上进行debug，体验debug的全流程，并完成一份debug笔记(需要截图)。
+> - 任务描述：使用本地 VSCode 连接远程开发机，将上面你写的 wordcount 函数在开发机上进行 debug，体验 debug 的全流程，并完成一份 debug 笔记(需要截图)。
 > - 任务步骤：
 > 
->   1.在本地VSCode中使用 Remote-SSH 插件，连接远程开发机。
+>   1.在本地 VSCode 中使用 Remote-SSH 插件，连接远程开发机。
 >   
->   2.在远程开发机中debug（调试）带有 wordcount 函数的 python 程序。
+>   2.在远程开发机中 debug（调试）带有 wordcount 函数的 python 程序。
 
 - 什么是 debug？
 
@@ -205,13 +205,13 @@ python wordcount.py
 
 #### 2.1 使用 pdb 进行debug
 
-打开本地电脑的 VSCode，利用 Remote - SSH 插件连接远程开发机（详细步骤可参考[书生大模型实战营【第三期】学习笔记 - 入门岛 - Linux 基础](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/L0-1-Linux.md)），在远程开发机中创建一个新的 python 文件，将[1.Python实现wordcount](#1-Python-实现-wordcount)中实现的内容复制到该文件中，并在终端中输入以下命令，调试该文件：
+打开本地电脑的 VSCode，利用 Remote - SSH 插件连接远程开发机（详细步骤可参考[书生大模型实战营【第三期】学习笔记 - 入门岛 - Linux 基础](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/L0-1-Linux.md)），在远程开发机中创建一个新的 python 文件，将[1. Python 实现 wordcount](#1-Python-实现-wordcount)中实现的内容复制到该文件中，并在终端中输入以下命令，调试该文件：
 
 ```bash
 python -m pdb wordcount.py
 ```
 
-[`pdb` 是一个内置的Python调试器](https://docs.python.org/zh-cn/3/library/pdb.html)，它允许你逐行执行代码，查看和修改当前执行环境的状态（如变量的值），以及设置断点等。
+[`pdb` 是一个内置的 Python 调试器](https://docs.python.org/zh-cn/3/library/pdb.html)，它允许你逐行执行代码，查看和修改当前执行环境的状态（如变量的值），以及设置断点等。
 
 在调试过程中，可以使用 `l` (list)命令查看当前代码的位置，使用 `n` (next)命令执行下一行代码，使用 `c` (continue)命令继续执行代码，使用 `p` (print)命令打印变量的值，使用 `b` (break)命令设置断点，使用 `s` (step)命令逐步执行代码等，以便更好地调试代码。调试完成后，输入 `q` (quit)命令退出调试，或输入 `Ctrl + D` 终止调试。
 
@@ -267,11 +267,11 @@ if __name__ =='__main__':
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-07.png)
 
-第 3 个断点
+第 3 个断点，此时已经执行了 sum +=b， sum 为 1 + 2 = 3。
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-08.png)
 
-第 4 个断点
+第 4 个断点，此时已经执行了 sum +=c， sum 为 3 + 3 = 6。
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-09.png)
 
@@ -292,13 +292,13 @@ if __name__ =='__main__':
 
 #### 2.3 [Python Tutor](https://pythontutor.com/python-compiler.html#mode=edit)
 
-我们还可以使用 Python Tutor 将代码可视化，此工具可以帮助我们的理解代码的执行过程，帮助我们 debug 。
+我们还可以使用 Python Tutor 将代码可视化，此工具可以帮助我们的理解代码的执行过程，辅助我们 debug 。
 
 ![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L0-2-Python-12.png)
 
 ## 总结
 
-本次实战主要通过 python 实现了一个 wordcount 函数，用于统计英文字符串中每个单词出现的次数。通过 VSCode 连接远程开发机，体验并尝试用多种方法进行 debug 的过程，回顾了 pdb 调试过程。
+本次实战主要通过 python 实现了一个 wordcount 函数，用于统计英文字符串中每个单词出现的次数。通过 VSCode 连接远程开发机，体验并尝试用多种方法进行 debug 的全过程，同时也回顾了 pdb 调试过程。
 
 ## 参考资料
 
