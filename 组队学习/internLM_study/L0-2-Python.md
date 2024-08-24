@@ -205,7 +205,7 @@ python wordcount.py
 
 #### 2.1 使用 pdb 进行debug
 
-打开本地电脑的 VSCode，利用 Remote - SSH 插件连接远程开发机（详细步骤可参考[书生大模型实战营【第三期】学习笔记 - 入门岛 - Linux 基础](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/L0-1-Linux.md)），在远程开发机中创建一个新的 python 文件，将[1.Python实现wordcount](#1-Python实现wordcount)中实现的内容复制到该文件中，并在终端中输入以下命令，调试该文件：
+打开本地电脑的 VSCode，利用 Remote - SSH 插件连接远程开发机（详细步骤可参考[书生大模型实战营【第三期】学习笔记 - 入门岛 - Linux 基础](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/L0-1-Linux.md)），在远程开发机中创建一个新的 python 文件，将[1.Python实现wordcount](#1-Python-实现-wordcount)中实现的内容复制到该文件中，并在终端中输入以下命令，调试该文件：
 
 ```bash
 python -m pdb wordcount.py
