@@ -151,7 +151,7 @@ def wordcount(text):
     # 3.根据空格或空白字符分隔字符串 
     words = text.split()
     
-	# 4.统计每个单词出现频次
+    # 4.统计每个单词出现频次
     word_counts = {}  
     
     for word in words:  
