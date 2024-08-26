@@ -121,7 +121,7 @@ tmux new -t langgpt
 
 创建成功后如下图所示，进入命令窗口后，需要在新窗口中再次激活环境。
 
-![zps1011](D:\Datawhale组队学习\书生大模型实战营[第三期]\L1-3-Prompt\L1-3-Prompt-01.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-3-Prompt-01.png)
 
 首次创建完成后会自动进入窗口，再次进入需要运行以下命令进入：
 
@@ -137,7 +137,7 @@ CUDA_VISIBLE_DEVICES=0 lmdeploy serve api_server /share/new_models/Shanghai_AI_L
 
 如下图所示，即为部署成功：
 
-![zps1011](D:\Datawhale组队学习\书生大模型实战营[第三期]\L1-3-Prompt\L1-3-Prompt-02.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-3-Prompt-02.png)
 
 部署完成后，我们在开发机的 `~/langgpt` 路径中创建一个名为 `demo_api.py` 的文件，并写入以下代码：
 
@@ -165,7 +165,7 @@ print(response.choices[0].message.content)
 python ~/langgpt/demo_api.py
 ```
 
-![zps1011](D:\Datawhale组队学习\书生大模型实战营[第三期]\L1-3-Prompt\L1-3-Prompt-03.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-3-Prompt-03.png)
 
 服务启动完成后，按`Ctrl+B`进入tmux的控制模式，再按`D`离开当前会话。
 
@@ -205,7 +205,7 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:8501 -o StrictHos
 
 左侧边栏为对话的部分设置，其中设置的第一项为最大 token 长度，将其设置为 0 时表示不限制生成的最大 token 长度。API Key 和 Base URL 在部署 InternLM 时已经设置。点击`保存设置`之后，就会启动对话界面：
 
-![zps1011](D:\Datawhale组队学习\书生大模型实战营[第三期]\L1-3-Prompt\L1-3-Prompt-04.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-3-Prompt-04.png)
 
 ### 2. 使用 LangGPT 优化提示词，使 LLM 输出正确结果
 
@@ -223,11 +223,11 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:8501 -o StrictHos
 
 我们需要前往 [LangGPT 提示词助手页面](https://chatgpt.com/g/g-Apzuylaqk-langgpt-ti-shi-ci-zhuan-jia)，向 LangGPT 提交提示词请求，下图为我提交的提示词请求， LangGPT 助手返回结果后，便能向 InternLM2-Chat-1.8B 发送该提示词请求。
 
-![zps1011](D:\Datawhale组队学习\书生大模型实战营[第三期]\L1-3-Prompt\L1-3-Prompt-05.png)
+![zps1011](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/images/L1-3-Prompt-05.png)
 
 #### 2.2 向 internlm2-chat-1.8b 提交提示词请求
 
-根据 [1. 部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口](#1-部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口) 后，接下来我们向模型询问一些浮点数比较问题，检查它的回答是否正确。
+根据 [1. 部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口](#1-部署internlm2-chat-1.8b为OpenAI式的通用接口) 后，接下来我们向模型询问一些浮点数比较问题，检查它的回答是否正确。
 
 多轮对话后的输出结果如下表所示，后续还需要优化提示词。
 
