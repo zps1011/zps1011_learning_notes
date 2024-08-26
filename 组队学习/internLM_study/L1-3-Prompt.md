@@ -243,6 +243,7 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:8501 -o StrictHos
 
 ## 参考资料
 
+- [浦语提示词工程实践 - 知识文档](https://github.com/InternLM/Tutorial/tree/camp3/docs/L1/Prompt)
 - [动手学大模型应用开发 - Prompt Engineering](https://datawhalechina.github.io/llm-universe/#/C2/3.%20Prompt%20Engineering)
 - [LangGPT - GitHub](https://github.com/langgptai/LangGPT)
 - [LangGPT 提示词专家](https://chatgpt.com/g/g-Apzuylaqk-langgpt-ti-shi-ci-zhuan-jia)
