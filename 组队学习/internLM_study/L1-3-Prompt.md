@@ -129,7 +129,7 @@ tmux new -t langgpt
 tmux a -t langgpt
 ```
 
-进入命令窗口后，需要在新窗口中再次激活环境。然后，使用 LMDeploy 进行部署，输入以下命令。执行时会发现，显存占用率高达95%。
+使用 LMDeploy 进行部署，输入以下命令。执行时会发现，显存占用率高达95%。
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 lmdeploy serve api_server /share/new_models/Shanghai_AI_Laboratory/internlm2-chat-1_8b --server-port 23333 --api-keys internlm2
@@ -169,7 +169,7 @@ python ~/langgpt/demo_api.py
 
 服务启动完成后，按`Ctrl+B`进入tmux的控制模式，再按`D`离开当前会话。
 
-InternLM 部署完成后，可利用提供的`chat_ui.py`创建图形化界面。
+InternLM 部署完成后，可利用提供的[`chat_ui.py`](https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/internLM_study/Material_submission/chat_ui.py)创建图形化界面。
 
 我们从Github获取项目，运行如下命令：
 
