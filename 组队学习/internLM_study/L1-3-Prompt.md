@@ -227,7 +227,7 @@ ssh -p {port} root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:8501 -o StrictHos
 
 #### 2.2 向 internlm2-chat-1.8b 提交提示词请求
 
-根据 [1. 部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口](#1-部署internlm2-chat-1.8b为OpenAI式的通用接口) 后，接下来我们向模型询问一些浮点数比较问题，检查它的回答是否正确。
+根据 [1. 部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口](#1-部署internlm2-chat-1_8b为OpenAI式的通用接口) 后，接下来我们向模型询问一些浮点数比较问题，检查它的回答是否正确。
 
 多轮对话后的输出结果如下表所示，后续还需要优化提示词。
 
