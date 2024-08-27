@@ -45,7 +45,7 @@ LangGPT 是一个帮助用户编写高质量提示词的工具，并具有一套
 
 LangGPT 团队分别在 OpenAI 商店和 月之暗面 Kimi 中发布了 LangGPT 辅助提示词编写工具，本次实操任务中，我们将使用 LangGPT 的工具，优化提示词，使 LLM 输出正确结果。
 
-## 实践任务
+## 基础任务
 
 > - 背景问题：近期相关研究发现，LLM在对比浮点数字时表现不佳，经验证，internlm2-chat-1.8b (internlm2-chat-7b)也存在这一问题，例如认为 13.8<13.11。
 >
@@ -55,13 +55,13 @@ LangGPT 团队分别在 OpenAI 商店和 月之暗面 Kimi 中发布了 LangGPT 
 >
 >   1.部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口
 >
->   1.向 LangGPT 提交提示词请求
+>   2.向 LangGPT 提交提示词请求
 >
->   2.向 internlm2-chat-1.8b 提交提示词请求
+>   3.向 internlm2-chat-1.8b 提交提示词请求
 >
->   3.优化提示词，使LLM输出正确结果
+>   4.优化提示词，使LLM输出正确结果
 >   
->   4.重复步骤 1-3，直至LLM输出正确结果，记录优化过程并截图
+>   5.重复步骤 1-3，直至LLM输出正确结果，记录优化过程并截图
 
 ### 1. 部署 internlm2-chat-1.8b 为 OpenAI 式的通用接口
 
