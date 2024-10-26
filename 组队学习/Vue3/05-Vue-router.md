@@ -1,5 +1,5 @@
 <div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
-    <h1>2024 年 10 月 Vue3 组队学习<br/><span>05. Vue-Router</span></h1>
+    <h1>2024 年 10 月 Vue3 学习笔记<br/><span>05. Vue-Router</span></h1>
 </div>
 <div style="text-align: center;" align="center">
     记录人：zps1011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录时间：2024年10月26日
