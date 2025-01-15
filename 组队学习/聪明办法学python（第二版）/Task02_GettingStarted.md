@@ -77,7 +77,9 @@ print('the product of {} and {} is: {}'.format(a,b,s))
 
 题目描述：Datawhale 的吉祥物是一只可爱的小鲸鱼，尝试把它用 `Python` 画出来吧~
 
-![img](https://cdn.luogu.com.cn/upload/image_hosting/0ypl2q8v.png)
+<div align=center>
+<img src="https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/%E8%81%AA%E6%98%8E%E5%8A%9E%E6%B3%95%E5%AD%A6python%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89/images/task02-01.png" alt="Datawhale小鲸鱼图片"/>
+</div>
 
 输入格式：无
 
@@ -127,7 +129,8 @@ print('the product of {} and {} is: {}'.format(a,b,s))
 **本题代码如下：**
 
 ```python
-print('''@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+print('''
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
