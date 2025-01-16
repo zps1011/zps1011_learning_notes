@@ -33,6 +33,7 @@
 
 
 第四步：写入课程 github 地址。
+本次组队学习的课程地址：https://github.com/datawhalechina/learn-python-the-smart-way-v2
 
 <div align=center>
 <img src="https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/%E8%81%AA%E6%98%8E%E5%8A%9E%E6%B3%95%E5%AD%A6python%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89/images/task01-04.png" alt="写入课程地址"/>
@@ -55,7 +56,7 @@ pip install jupyter
 
 ## 二、本地安装清单推荐
 
-> 建议所有安装均建议选择默认配置
+> 所有安装均建议选择默认配置
 
 - Steam++（Watt Toolkit）：https://steampp.net/ 。此应用可以帮助我们流畅访问 github，huggingface 等。
 
@@ -81,14 +82,14 @@ git config --global http.sslBackend schannel
 >
 > Miniforge 下载地址：https://github.com/conda-forge/miniforge/releases
 
-- Github 加速：https://github.moeyy.xyz
+- Github 文件加速：https://github.moeyy.xyz
 
 
 
 
 **本人在学习本课程之前已经在本地安装了相应的软件，且能正常运行。**
 
-3、修改 powershell 执行策略
+## 三、修改 powershell 执行策略
 
 我们在 **Anaconda Powershell Prompt** 中输入：
 
@@ -104,24 +105,24 @@ conda init
 
 
 
-在 win 10 系统中，按下 win + r，输入 powershell，回车。进入终端后输入以下命令：
+在 win 10 系统中，按下 win + r，输入 powershell，然后回车。进入终端后输入以下命令：
 
 ```
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
-出现如下内容后，输入：`A`，回车。
+出现如下内容后，输入：`A`，然后回车。
 
 <div align=center>
 <img src="https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/%E8%81%AA%E6%98%8E%E5%8A%9E%E6%B3%95%E5%AD%A6python%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89/images/task01-07.png" alt="更改执行策略"/>
 </div>
 
-4、创建、激活与删除 conda 环境
+## 四、创建、激活、删除 conda 环境
 
 创建 Conda 环境
 
 ```
-conda create -n zps1011 python=3.12
+conda create -n zps1011 python=3.12 -y
 ```
 
 其中 ***-n*** 代表创建的环境名称，上述代码指创建一个名为 zps1011 的 conda 环境，并指定 Python 版本为 3.12。
@@ -141,9 +142,7 @@ conda remove -n zps1011 --all # 删除整个环境
 
 
 
-
-
 ## 参考资料
 
-- [github - 聪明办法学 python - Installation](https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)
-- [聪明办法学 python 视频资料 - Chap 0 安装（2025）](https://www.bilibili.com/video/BV1SscDeQE8B/?spm_id_from=333.337.search-card.all.click)
+- [Github - 聪明办法学 python（第二版）- Installation](https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_0-Installation.ipynb)
+- [聪明办法学 python（第二版）视频资料 - Chap 0 安装（2025）](https://www.bilibili.com/video/BV1SscDeQE8B/?spm_id_from=333.337.search-card.all.click)
