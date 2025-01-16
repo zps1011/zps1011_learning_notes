@@ -416,4 +416,4 @@ $$
 ### 参考资料
 
 - [Github - 聪明办法学 python（第二版）- 数据类型和操作](https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_2-Data_Types_and_Operators.ipynb)
-- [聪明办法学 python（第二版）视频资料 - Chap 数据类型和操作](https://www.bilibili.com/video/BV1Ju4y1B73m?spm_id_from=333.788.videopod.sections)
+- [聪明办法学 python（第二版）视频资料 - Chap2 数据类型和操作](https://www.bilibili.com/video/BV1Ju4y1B73m?spm_id_from=333.788.videopod.sections)
