@@ -32,7 +32,7 @@ hello, world
 print('hello, world')
 ```
 
-> 注意：逗号（，）与 world 之间有一个空格。可使用 repr() 进行判断。
+> 注意：逗号（，）与 world 之间有一个空格。
 
 ### 第二题：f-string
 
