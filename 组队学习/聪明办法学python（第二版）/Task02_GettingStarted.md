@@ -183,7 +183,8 @@ print('''
 
 输出样例：无需样例，这道题不需要用到 `print()`，请查阅“提示说明”中 Python 之禅的调用方法。
 
-提示说明：[PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/#:~:text=The Zen of Python. Beautiful is better than,cases aren't special enough to break the rules.)
+提示说明：[PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/#:%7E:text=%EE%80%80The%20Zen%20of%20Python%EE%80%81.%20Beautiful%20is%20better%20than,cases%20aren%27t%20special%20enough%20to%20break%20the%20rules.)
+
 
 **本题代码如下：**
 
@@ -200,7 +201,7 @@ import this
 - 现在给你一个浮点数，你可以 **暂时把它理解成是一个小数** ，要求输出这个浮点数向下取整后的值
 
 
-- 关于“向下取整”函数的更多信息可见：[Floor Function](https://mathworld.wolfram.com/FloorFunction.html#:~:text=The floor function %2C also called the greatest,by K. E. Iverson (Graham et al. 1994).)
+- 关于“向下取整”函数的更多信息可见：[Floor Function](https://mathworld.wolfram.com/FloorFunction.html#:%7E:text=The%20floor%20function%20%2C%20also%20called%20the%20greatest,by%20K.%20E.%20Iverson%20%28Graham%20et%20al.%201994%29.)
 
 
 
