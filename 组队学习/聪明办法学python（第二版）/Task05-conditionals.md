@@ -530,6 +530,26 @@ match subject:
   match_example(3)  # 输出: 匹配到其他值
   ```
 
+5、四六级成绩毕业条件判断
+
+```python
+def Is_Graduate(cet4, cet6):
+    if cet4 >= 425 and cet6 >= 425:
+        return "Yes"
+    else:
+        return "No"
+        
+cet = input()  # "'500' '438'" ；"'430'"
+if " " in cet:
+    cet4, cet6 = cet.split()
+    cet4 = float(cet4)
+    cet6 = float(cet6)
+else:
+    cet4 = float(cet)
+    cet6 = None # 赋值 None 会报错；cet6 = float(0) 反而正常
+
+print(Is_Graduate(cet4, cet6))
+```
   
 
 ### 参考资料
