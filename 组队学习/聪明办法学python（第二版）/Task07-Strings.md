@@ -1,5 +1,5 @@
 <div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
-    <h1>聪明办法学 python（第二版）<br/><span>Task 07：</span></h1>
+    <h1>聪明办法学 python（第二版）<br/><span>Task 07：字符串</span></h1>
 </div>
 <div style="text-align: center;" align="center">
     记录人：zps1011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录时间：2025年1月25日
@@ -11,9 +11,6 @@
     -->  
 &nbsp;&nbsp;&nbsp;
 </div>
-
-
-
 
 
 **作业系统个人主页链接：https://hydro.ac/d/datawhale_p2s/user/48019**
@@ -50,7 +47,7 @@ crazyThurvme50,KFC
 not found
 ```
 
-提示说明：由于难度问题，我们这里给出程序模板，请在 **注释说明的部分补全你的代码，如果需要导入模块，请放在代码开头。**
+提示说明：由于难度问题，我们这里给出程序模板，请在**注释说明的部分补全你的代码，如果需要导入模块，请放在代码开头。**
 
 模板：
 
@@ -284,7 +281,7 @@ ABCDefg
 
 提示说明：
 
-- 注意大写字母指代`A`~`Z`，小写字母指代`a`~`z`。
+- 注意大写字母指代 `A ~ Z` ，小写字母指代 `a ~ z` 。
 - 由于难度问题，我们这里给出程序模板，请在**注释说明的部分补全你的代码，如果需要导入模块，请放在代码开头。**
 
 模板：
@@ -392,6 +389,172 @@ reversed_words = list(reversed(words))
 result = ' '.join(reversed_words)
 print(result)
 ```
+### 附录
+
+1、字符串
+
+- 字符串在程序中常用来表示文本信息。用一对双引号 `" "` 或者一对单引号 `' '` 括起来。多行字符串利用三对双引号 `""" """` 或者三对单引号 `''' '''` 表示。
+- 中文字符和英文字符都记作 1 个字符，长度为 1 。
+- 双引号和单引号表示的字符串作用相同，两者没有明显的区别。
+- Python中索引有两种访问方式：
+   - 从前往后的**正向**索引， n 个字符串，索引值从 `0 到 n - 1`
+   - 从后往前的**反向**索引， n 个字符串，索引值从 `-1 到 -n`
+
+2、字符串的切片
+
+- 在 Python 中，可以使用切片从字符串中提取子串，切片适用于字符串、列表、元组、 range 对象等类型。
+- 切片格式：<字符串或字符串变量>[N : M(不包含) : step] 
+   - 参数 N 是切片的起始索引序号；参数 M 是切片的结束索引序号；参数 step 是切片的步长（可省略）。
+
+3、转义字符
+
+- 反斜杠（\）是一个特殊字符，表示`转义`。转义字符只做**一个字符**存在。
+   - 如：`\n` 表示换行 、`\\` 表示反斜杠、 `\'`表示单引号字符、`\t` 表示制表符（也叫跳格键）。
+
+<div align=center>
+<img src="https://github.com/zps1011/zps1011_learning_notes/blob/main/%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/%E8%81%AA%E6%98%8E%E5%8A%9E%E6%B3%95%E5%AD%A6python%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89/images/task07-01.png" alt="转义字符的示例"/>
+</div>
+
+4、字符串类型的操作
+
+- str1 + str2 ：连接两个字符串
+- str * n 或 n * str ：复制 n 次字符 str
+- s in str：判断 s 字符串是否在 str 中
+
+5、一些字符串常量
+
+```python
+import string
+
+# 打印所有的 ASCII 字母，也就是小写字母 abcdefghijklmnopqrstuvwxyz 和大写字母 ABCDEFGHIJKLMNOPQRSTUVWXYZ 的组合。
+print(string.ascii_letters)
+
+# 打印 ASCII 中的小写字母
+print(string.ascii_lowercase)
+
+# 打印 ASCII 中的大写字母
+print(string.ascii_uppercase) 
+
+# 打印所有的十进制数字字符，即从 0 到 9 的字符序列，其值为 '0123456789'。
+print(string.digits)
+
+# 打印 ASCII 标点符号字符。包含的字符有：!"#$%&'()*+,-./:;<=>?@[\]^_{|}~` 。
+print(string.punctuation)
+
+# 所有可以打印的 ASCII 字符。
+"""
+ASCII 字符由以下几部分组成：
+数字（string.digits）：0123456789。
+小写字母（string.ascii_lowercase）：abcdefghijklmnopqrstuvwxyz。
+大写字母（string.ascii_uppercase）：ABCDEFGHIJKLMNOPQRSTUVWXYZ。
+标点符号（string.punctuation）：!"#$%&'()*+,-./:;<=>?@[\]^_{|}~`。
+空白字符：包括空格、制表符、换行符、回车符、换页符和垂直制表符等。
+"""
+print(string.printable)
+
+# 打印 ASCII 中所有的空白字符
+"""
+这些字符包括：
+空格字符（' '）
+制表符（'\t'）
+换行符（'\n'）
+回车符（'\r'）
+换页符（'\f'）
+垂直制表符（'\v'）
+"""
+print(string.whitespace)
+```
+
+> print(repr(string.whitespace))：
+>
+> - 此代码使用 `repr()` 函数对 `string.whitespace` 进行处理，得到其包含转义字符的字符串表示。
+>
+> - 此代码输出的 `\t` 代表制表符，`\n` 代表换行符，`\r` 代表回车符，`\x0b` 是垂直制表符（`'\v'`）的十六进制转义表示，`\x0c` 是换页符（`'\f'`）的十六进制转义表示。
+
+6、字符串的循环
+
+- 使用索引的 for 循环
+
+  ```python
+  s = "zps1011"
+  
+  for i in range(len(s)):
+      print(i, s[i])
+      
+  # 得到输出：
+  0 z
+  1 p
+  2 s
+  3 1
+  4 0
+  5 1
+  6 1
+  ```
+
+- 使用 `in`
+
+  ```python
+  s = "zps1011"
+  
+  for c in s:
+      print(c)
+      
+  # 得到输出：
+  z
+  p
+  s
+  1
+  0
+  1
+  1
+  ```
+
+- 使用 `enumerate()` 获得元素的序号
+
+  ```python
+  s = "zps1011"
+  
+  for idx, c in enumerate(s):
+      print(idx, c)
+  
+  # 得到输出：
+  0 z
+  1 p
+  2 s
+  3 1
+  4 0
+  5 1
+  6 1
+  ```
+
+  > - **`enumerate(iterable, start=0)`** 是 Python 的一个内置函数，其作用是将一个可迭代对象（像字符串、列表、元组等）组合成一个索引序列，在遍历时可以同时获取元素的索引和元素本身。其中，`iterable`：这是一个必需的参数，代表要进行枚举的可迭代对象，在上述代码就是字符串 `"zps1011"`。`start`：这是一个可选参数，代表索引的起始值，默认是 0。
+  > - **`idx`**：它代表当前元素在可迭代对象中的索引。在每次循环迭代时，`idx` 会依次取可迭代对象中每个元素对应的索引值，初始值根据 `enumerate()` 函数的 `start` 参数来确定，若未指定 `start` 参数，就从 0 开始。
+  > - **`c`**：它代表当前遍历到的可迭代对象中的元素。在每次循环迭代时，`c` 会依次取可迭代对象中的每个元素。
+
+- `zip(a, b)` 可以在一次循环中，分别从 `a` 和 `b` 里同时取出一个元素
+
+  ```python
+  s = "zps1011"
+  
+  for a, b in zip(s, s[::-1]):
+      print(a, b)
+      
+  # 得到输出：
+  z 1
+  p 1
+  s 0
+  1 1
+  0 s
+  1 p
+  1 z
+  ```
+
+7、格式化字符串
+
+-  `f-string` 方法
+-  `format()` 方法
+-  `%` 操作
+
 
 
 
@@ -399,4 +562,6 @@ print(result)
 
 - [Github - 聪明办法学 python（第二版）- 字符串 Strings](https://github.com/datawhalechina/learn-python-the-smart-way-v2/blob/main/slides/chapter_6-Strings.ipynb)
 - [聪明办法学 python（第二版）视频资料 - Chap6 字符串](https://www.bilibili.com/video/BV1pH4y1S71T?spm_id_from=333.788.videopod.sections)
-
+- [菜鸟教程 - Python3 字符串](https://www.runoob.com/python3/python3-string.html)
+- [菜鸟教程 - Python format 格式化函数](https://www.runoob.com/python/att-string-format.html)
+- [DataWhale - Python 编程语言](https://github.com/datawhalechina/team-learning-program/tree/master/PythonLanguage)
