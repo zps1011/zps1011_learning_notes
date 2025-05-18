@@ -48,16 +48,17 @@
 	<img src="../AI办公、实践与应用/images/Task02-04.png" alt="Task02-04"/>
 </div>
 
-编辑完成后可`另存为长图`。
 
 ### 2.3 PPT 下载
+
+编辑完成后可`另存为长图`。
 
 <div align=center>
 	<img src="../AI办公、实践与应用/images/Task02-05.png" alt="Task02-05"/>
 </div>
 
 <div align=center>
-	<img src="../AI办公、实践与应用/images/Task02-06.png" alt="Task02-06"/>
+	<img src="../AI办公、实践与应用/images/Task02-06.jpeg" alt="Task02-06"/>
 </div>
 从长图中，我们发现，部分页面的 PPT 只有标题，缺失内容。个人并没有找到让 AI 只重新生成单张 PPT 的方法。总体上看，架构还是不错的，内容需要用户后期完善。
 
@@ -97,7 +98,7 @@
 
 ### 3.2 PPT 下载
 
-点击顶部的下载图案 → 选择期望的导出方式。
+点击顶部的下载图案 → 选择期望的导出格式。
 
 <div align=center>
 	<img src="../AI办公、实践与应用/images/Task02-12.png" alt="Task02-12"/>
