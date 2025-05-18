@@ -29,7 +29,7 @@
 我输入的是：**软考中级网络工程师备考指南**
 
 <div align=center>
-	<img src="../%E7%BB%84%E9%98%9F%E5%AD%A6%E4%B9%A0/AI%E5%8A%9E%E5%85%AC%E3%80%81%E5%AE%9E%E8%B7%B5%E4%B8%8E%E5%BA%94%E7%94%A8/images/Task02-01.png" alt="Task02-01"/>
+	<img src="../AI办公、实践与应用/images/Task02-01.png" alt="Task02-01"/>
 </div>
 
 ![zps1011-01](D:\zps1011\202505\01.png)
