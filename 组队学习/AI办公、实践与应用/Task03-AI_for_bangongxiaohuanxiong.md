@@ -1,5 +1,5 @@
 <div style="border-bottom: 4px solid black; width: 100%; box-sizing: border-box; text-align: center; padding-top: 0.1rem;" align="center">
-    <h1>AI 办公、实践与应用<br/><span>Task 01 微信接龙信息整理与 Excel 导入</span></h1>
+    <h1>AI 办公、实践与应用<br/><span>Task 03 使用办公小浣熊做一个小案例</span></h1>
 </div>
 <div style="text-align: center;" align="center">
     记录人：zps1011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录时间：2025年5月20日
@@ -14,7 +14,7 @@
 
 ## 2、使用办公小浣熊进行数据分析
 
-‌**[办公小浣熊](https://xiaohuanxiong.com/login)**‌是由商汤科技开发的一款基于大语言模型的数据分析工具，旨在帮助用户进行数据分析和可视化展示，而无需编程或复杂的操作。用户只需以自然语言形式表达他们的需求，办公小浣熊就能够自动将复杂的数据转化为可直接使用的分析结果‌。
+[办公小浣熊](https://xiaohuanxiong.com/login)是由商汤科技开发的一款基于大语言模型的数据分析工具，旨在帮助用户进行数据分析和可视化展示，而无需编程或复杂的操作。用户只需以自然语言形式表达他们的需求，办公小浣熊就能够自动将复杂的数据转化为可直接使用的分析结果‌。
 
 <div align=center>
 	<img src="../AI办公、实践与应用/images/Task03-01.png" alt="Task03-01"/>
