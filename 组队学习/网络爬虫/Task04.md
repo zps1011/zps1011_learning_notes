@@ -16,7 +16,7 @@ http://vip.stock.finance.sina.com.cn/q/go.php/vComStockHold/kind/jgcg/index.phtm
 当我们打开网站时，发现里面没有内容。这时，我们需要在筛选中选择我们的需求，其中，我选择的是2024年一季报数据。我们可以从源代码中发现，reportdata 为年，quarter 为月，p 为页码。
 
 <div align=center>
-	<img src="../网络爬虫/images/task04_01.png" alt="Task04-01"/>
+	<img src="../网络爬虫/images/task04-01.png" alt="Task04-01"/>
 </div>
 
 
@@ -77,7 +77,7 @@ http://www.air-level.com/
 从下图我们可知，源代码中已经包含了相应的数据，我们只需提取即可。
 
 <div align=center>
-	<img src="../网络爬虫/images/task04_02.png" alt="Task04-02"/>
+	<img src="../网络爬虫/images/task04-02.png" alt="Task04-02"/>
 </div>
 
 
