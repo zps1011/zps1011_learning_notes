@@ -327,7 +327,7 @@ XPath 即为 XML 路径查询语言，是一种用来确定 XML 在文档中某�
 from lxml import etree
 ```
 
-4.2 基本使用
+### 4.2 基本使用
 
 ```python
 from lxml import etree
